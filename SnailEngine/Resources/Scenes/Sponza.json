@@ -1,0 +1,38 @@
+{
+  "skybox": {
+    "texture": "Resources/skybox_cubemap.png"
+  },
+  "lights": [
+    {
+      "type": "directional",
+      "direction": [ 1, -1, 0 ],
+      "color": [ 0.5, 0.5, 0.5 ]
+    }
+  ],
+  "cameras": [
+    {
+      "FOV": 60,
+      "transform": {
+        "position": [ 0, 3, -5 ],
+        "rotation": [ 30, 0, 0 ]
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "sponza",
+      "type": "mesh",
+      "filepath": "Resources/Meshes/Sponza/sponza.obj"
+    }
+  ],
+  "objects": [
+    {
+      "type": "entity",
+      "mesh": "sponza",
+      "transform": {
+        "scale": [ 0.1, 0.1, 0.1 ]
+      }
+    }
+  ],
+  "grass_patches": []
+}

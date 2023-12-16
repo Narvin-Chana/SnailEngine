@@ -1,0 +1,101 @@
+# Blender 3.6.2 MTL File: 'pipeCut.blend'
+# www.blender.org
+
+newmtl PipesFittings.006
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.450000
+illum 2
+map_Kd textures/PipesFittings_BaseColor.png
+map_Ns textures/PipesFittings_Roughness.png
+map_Ke textures/PipesFittings_Emission.png
+map_d textures/PipesFittings_Alpha.png
+norm textures/PipesFittings_normal.png
+
+newmtl PipesFittings.007
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.450000
+illum 2
+map_Kd textures/PipesFittings_BaseColor.png
+map_Ns textures/PipesFittings_Roughness.png
+map_Ke textures/PipesFittings_Emission.png
+map_d textures/PipesFittings_Alpha.png
+norm textures/PipesFittings_normal.png
+
+newmtl PipesFittings.008
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.450000
+illum 2
+map_Kd textures/PipesFittings_BaseColor.png
+map_Ns textures/PipesFittings_Roughness.png
+map_Ke textures/PipesFittings_Emission.png
+map_d textures/PipesFittings_Alpha.png
+norm textures/PipesFittings_normal.png
+
+newmtl PipesFittings.009
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.450000
+illum 2
+map_Kd textures/PipesFittings_BaseColor.png
+map_Ns textures/PipesFittings_Roughness.png
+map_Ke textures/PipesFittings_Emission.png
+map_d textures/PipesFittings_Alpha.png
+norm textures/PipesFittings_normal.png
+
+newmtl PipesFittings.013
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.450000
+illum 2
+map_Kd textures/PipesFittings_BaseColor.png
+map_Ns textures/PipesFittings_Roughness.png
+map_Ke textures/PipesFittings_Emission.png
+map_d textures/PipesFittings_Alpha.png
+norm textures/PipesFittings_normal.png
+
+newmtl PipesFittings.014
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.450000
+illum 2
+map_Kd textures/PipesFittings_BaseColor.png
+map_Ns textures/PipesFittings_Roughness.png
+map_Ke textures/PipesFittings_Emission.png
+map_d textures/PipesFittings_Alpha.png
+norm textures/PipesFittings_normal.png
+
+newmtl PipesFittings.015
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.450000
+illum 2
+map_Kd textures/PipesFittings_BaseColor.png
+map_Ns textures/PipesFittings_Roughness.png
+map_Ke textures/PipesFittings_Emission.png
+map_d textures/PipesFittings_Alpha.png
+norm textures/PipesFittings_normal.png
+
+newmtl PipesFittings.016
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.450000
+illum 2
+map_Kd textures/PipesFittings_BaseColor.png
+map_Ns textures/PipesFittings_Roughness.png
+map_Ke textures/PipesFittings_Emission.png
+map_d textures/PipesFittings_Alpha.png
+norm textures/PipesFittings_normal.png
+
+newmtl PipesFittings.017
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.450000
+illum 2
+map_Kd textures/PipesFittings_BaseColor.png
+map_Ns textures/PipesFittings_Roughness.png
+map_Ke textures/PipesFittings_Emission.png
+map_d textures/PipesFittings_Alpha.png
+norm textures/PipesFittings_normal.png

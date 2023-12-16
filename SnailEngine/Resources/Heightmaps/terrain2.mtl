@@ -1,0 +1,8 @@
+# Blender 3.6.2 MTL File: 'None'
+# www.blender.org
+
+newmtl TerrainMaterial
+Ks 0 0 0
+Kd 1 1 1
+Ka .6 .4 .2
+Ns 1.0

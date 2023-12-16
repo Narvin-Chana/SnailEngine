@@ -1,0 +1,129 @@
+// This is a JSON file that serves as an example only
+// default values can be found in the JsonUtil.cpp file or in the T::Params default constructors
+{
+  // Skybox
+  "skybox": {
+    "name": "<skybox name>",
+    "texture": "<skybox texture path>" // mandatory
+  },
+  // Lights
+  "lights": [
+    {
+      "type": "directional | point | spot",
+      "color": [ 0, 0, 0 ],
+      "is_active": true,
+
+      // Specific for type point | spot
+      "position": [ 0, 0, 0 ],
+      "coefficients": [ 0, 0, 0 ],
+
+      // Secific for type directional | spot
+      "direction": [ 0, 0, 0 ],
+
+      // Secific for type directional
+      "casts_shadows": true,
+
+      // Specific for type spot
+      "inner_cone_angle": 0,
+      "outer_cone_angle": 0
+    }
+  ],
+  // Cameras
+  "cameras": [
+    {
+      "type": "perpective | orthographic",
+      "transform": {
+        "position": [ 0, 0, 0 ],
+        "rotation": [ 0, 0, 0 ]
+      },
+
+      // Specific for type perspective
+      "FOV": 0
+    }
+  ],
+  // Meshes
+  "meshes": [
+    {
+      "name": "<mesh name>", // mandatory
+      "type": "spheremesh | cubemesh | mesh", // mandatory
+
+      // Specific for type cubemesh | spheremesh
+      "material": {
+        "diffuse_filepath": "<path to resource>",
+        "blend_filepath": "<path to resource>",
+        "blend_diffuse_filepath": "<path to resource>",
+        "ambient_filepath": "<path to resource>",
+        "specular_filepath": "<path to resource>",
+        "normalmap_filepath": "<path to resource>",
+        "parameters": {
+          "diffuse": [ 0, 0, 0 ],
+          "ambient": [ 0, 0, 0 ],
+          "emission": [ 0, 0, 0 ],
+          "specular": [ 0, 0, 0 ],
+          "shininess": 0,
+          "uv_scale": [ 0, 0 ],
+          "blend_uv_scale": [ 0, 0 ]
+        }
+      },
+
+      // Specific for type mesh
+      "filepath": "<path to obj>", // mandatory
+
+      "diffuse_filepath": "<path to resource>",
+      "blend_filepath": "<path to resource>",
+      "blend_diffuse_filepath": "<path to resource>",
+      "ambient_filepath": "<path to resource>",
+      "specular_filepath": "<path to resource>",
+      "normalmap_filepath": "<path to resource>"
+    }
+  ],
+  "objects": [
+    // Generic entity
+    {
+      "type": "entity | cube | sphere | trigger | terrain | vehicle",
+      "name": "<entity name>",
+      "mesh": "<mesh name>",
+      "transform": {
+        "position": [ 0, 0, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "scale": [ 0, 0, 0 ]
+      },
+
+      // Specific for entity | cube | sphere
+      "physics": {
+        "type": "dynamic | static",
+        "shape": "sphere | box | capsule | plane | mesh", // mandatory
+        "shape_transform": {
+          "position": [ 0, 0, 0 ],
+          "rotation": [ 0, 0, 0 ],
+          "scale": [ 0, 0, 0 ]
+        },
+
+        // Specific for type box
+        "extents": [ 0, 0, 0 ],
+
+        // Specific for type sphere | capsule
+        "radius": 0,
+
+        // Specific for type capsule
+        "half_height": 0,
+
+        // Specific for type mesh
+        "mesh_type": "convex | triangle",
+        "mesh_name": "<mesh name>" // mandatory
+      },
+
+      // Specific for type trigger
+      "trigger_type": "checkpoint | start",
+      "checkpoint_index": 0,
+
+      // Specific for type terrain
+      "uv_scale": [ 0, 0 ],
+      "chunk_count": [ 0, 0 ],
+      "mesh_filepath": "<resource path>",
+      "diffuse_filepath": "<resource path>",
+      "diffuse2_filepath": "<resource path>",
+      "blend_filepath": "<resource path>"
+    }
+  ]
+}
