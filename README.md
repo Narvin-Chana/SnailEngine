@@ -33,11 +33,11 @@ Here is how it is achieved in real time with potentially many lights :
 
 1) Initial accumulation Pass with interleaving at half-resolution
 
-| Accumulation Buffer |
+| Accumulation Buffer (and zoom) |
 |---| 
 | ![image](https://github.com/Narvin-Chana/SnailEngine/assets/36044215/68dfee1c-11e5-4250-8dd9-2156c5962612) |
 
-2) Bilateral Gaussian Blur Pass to reduce noise (and conserve shape) :
+2) Bilateral Gaussian Blur Pass to reduce noise (and conserve shape)
 
 | Before Blur Pass | After Blur Pass |
 |---|---|
