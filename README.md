@@ -1,7 +1,9 @@
 # Snail Engine
 
 DirectX 11 C++ Game Engine. 
-Scenes are made via In order to run you will need to download the resources [here](https://drive.google.com/file/d/10jespw39jNmwH45xIiqIbtw1k69LX8vv/view?usp=sharing)
+
+Scenes are created via .json files like in Example.json.
+Some default scenes with meshes, textures and other assets are available [here.](https://drive.google.com/file/d/10jespw39jNmwH45xIiqIbtw1k69LX8vv/view?usp=sharing)
 
 ## Features
 - Blinn-Phong deferred lighting
