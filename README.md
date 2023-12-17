@@ -9,15 +9,18 @@ DirectX 11 C++ Game Engine. In order to run you will need to download the resour
 - Spot and Point Lights
 - Normal Mapping
 - Volumetric Lighting inspired by [Benjamin Glatzel's work](https://www.slideshare.net/BenjaminGlatzel/volumetric-lighting-for-many-lights-in-lords-of-the-fallen)
-- Procedural GPU-Instanced Grass
+- Procedural GPU-Instanced Grass inspired by [Sucker Punch's work on Ghost of Tsushima](https://www.gdcvault.com/play/1027214/Advanced-Graphics-Summit-Procedural-Grass)
 - Terrain Loading and Chunking
 - Multithreaded .obj parsing and asset management
 - SSAO
 - FXAA
+- PhysX 5.3 Integration
+- ImGui Editor (Scene JSON loading and serialization)
 
 ## Screenshots
 
 ### Decals
+
 ![image](https://github.com/Narvin-Chana/SnailEngine/assets/36044215/d3105520-d400-4d94-977a-da714201567e)
 
 ### Volumetric Lighting
@@ -45,9 +48,15 @@ Here is how it is achieved in real time with potentially many lights :
 
 ### Procedural Grass (GPU Instanced)
 
-Instance Data Generated in Compute Shader
-
 ![image](https://github.com/Narvin-Chana/SnailEngine/assets/36044215/778fd42a-e136-492b-b912-48785c0e2fe8)
+
+Instance Data Generated in Compute Shader :
+
+![image](https://github.com/Narvin-Chana/SnailEngine/assets/36044215/06225ff9-4bca-45b3-9240-fad10350cbd9)
+
+Texture Masking :
+
+![image](https://github.com/Narvin-Chana/SnailEngine/assets/36044215/b91b66f8-8fb2-4be5-9928-3b5e33324a40)
 
 ### SSAO
 
