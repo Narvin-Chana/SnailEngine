@@ -1,6 +1,7 @@
 # Snail Engine
 
-DirectX 11 C++ Game Engine. In order to run you will need to download the resources [here](https://drive.google.com/file/d/10jespw39jNmwH45xIiqIbtw1k69LX8vv/view?usp=sharing)
+DirectX 11 C++ Game Engine. 
+Scenes are made via In order to run you will need to download the resources [here](https://drive.google.com/file/d/10jespw39jNmwH45xIiqIbtw1k69LX8vv/view?usp=sharing)
 
 ## Features
 - Blinn-Phong deferred lighting
