@@ -22,7 +22,7 @@ Some default scenes with meshes, textures and other assets are available [here.]
 
 ## Screenshots
 
-### Decals
+### Screen-Space Deferred Decals
 
 ![image](https://github.com/Narvin-Chana/SnailEngine/assets/36044215/d3105520-d400-4d94-977a-da714201567e)
 
