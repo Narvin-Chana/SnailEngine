@@ -2,6 +2,12 @@
 
 DirectX 11 C++ Game Engine. 
 
+Created by :
+- Narvin Chana
+- Alexandre Lemarbre-Barrett
+- Paul Richard
+- Hugo Pierron
+
 Scenes are created via .json files like in Example.json.
 Some default scenes with meshes, textures and other assets are available [here.](https://drive.google.com/file/d/10jespw39jNmwH45xIiqIbtw1k69LX8vv/view?usp=sharing)
 
